@@ -1,0 +1,48 @@
+# bois
+# image_names = ['bombu.jpg', 'ebene.jpg','noisetier.jpg', 'merisier.jpg', 'charme.jpg']
+
+# def check_image(image_name):
+#     found = False
+#     tries = 0
+#     while not found and tries < 1:
+#         try:
+#             (x, y) = pg.locateCenterOnScreen(image_name, confidence=0.6)
+#             pg.click(x, y)
+#             found = True
+#             time.sleep(3) # Pause de 4 secondes entre chaque exécution
+#         except:
+#             tries += 1
+#     if not found:
+#         print(f"{image_name} not found")
+
+# # Boucle infinie pour exécuter la fonction en continu
+# while True:
+#     for image_name in image_names:
+#         check_image(image_name)
+#         if msvcrt.kbhit():
+#             break
+# //////////////
+# alchi
+
+# image_names = ['ortie.jpg']
+
+# def check_image(image_name):
+#     found = False
+#     tries = 0
+#     while not found and tries < 1:
+#         try:
+#             (x, y) = pg.locateCenterOnScreen(image_name, confidence=0.6)
+#             pg.click(x, y)
+#             found = True
+#             time.sleep(4) # Pause de 4 secondes entre chaque exécution
+#         except:
+#             tries += 1
+#     if not found:
+#         print(f"{image_name} not found")
+
+# # Boucle infinie pour exécuter la fonction en continu
+# while True:
+#     for image_name in image_names:
+#         check_image(image_name)
+#         if msvcrt.kbhit():
+#             break
